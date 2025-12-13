@@ -18,7 +18,7 @@ plt.rcParams['axes.unicode_minus'] = False # 讓負號 (-) 也能正常顯示
 # --- 網頁設定 ---
 st.set_page_config(page_title="黑潮航海家：進階版", layout="wide")
 
-st.title("🌊 Kuroshio Voyager: 黑潮航海家 (雲端版)")
+st.title("🌊 黑潮航海家 (B4a1a)")
 st.markdown("### 史前南島獨木舟：風帆向量與力矩物理模擬器 v2.1")
 st.markdown("---")
 
@@ -161,3 +161,4 @@ if not is_safe:
     st.error(f"**【翻船分析】**：您選擇的 **{sail_shape}** 重心可能太高，或者 **{sail_material_name}** 受力太強。建議：\n1. 換成倒三角形帆降低重心。\n2. 增加浮桿距離 (增加抗力臂)。\n3. 使用透氣材質洩掉部分風力。")
 else:
     st.success(f"**【航行分析】**：船體穩定！**{hull_label}** 配合目前的風帆配置，成功抵抗了側風力矩。前進分力達到 {force_forward:.1f} N，效率良好。")
+
